@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply w-full max-w-[1200px] mx-auto;
+}
+
+.light-orange {
+  @apply bg-[#FFF9F2];
+}
+
+.orange {
+  @apply bg-[#FC9329];
+}
+
+.lighter-black {
+  @apply text-[#303030];
+}
+
+body {
+  @apply bg-[#FFF9F2];
+}
