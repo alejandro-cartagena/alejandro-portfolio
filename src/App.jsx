@@ -1,11 +1,16 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import HeroSection from "./components/HeroSection";
+import SkillsSection from "./components/SkillsSection";
 
 function App() {
   return (
-    <div className="lighter-black">
+    <div className="lighter-black flex flex-col min-h-[100vh]">
       <Navbar />
-      <h1 className="text-5xl">Alejandro</h1>
+      <HeroSection />
+      <SkillsSection />
+      <Footer />
     </div>
   );
 }

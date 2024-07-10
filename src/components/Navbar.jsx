@@ -11,7 +11,7 @@ function Navbar() {
   };
 
   return (
-    <header className="flex items-center py-4 ">
+    <header className="relative flex items-center py-4 px-6 z-50">
       {menuOpen && (
         <ul className="md:hidden bg-[#FFF9F2] text-4xl flex flex-col items-center justify-evenly absolute top-0 w-full h-[100vh] mt-0 py-4 font-semibold">
           <li>
@@ -37,31 +37,31 @@ function Navbar() {
         </ul>
       )}
 
-      <nav className="container flex items-center justify-between px-6">
+      <nav className="container flex items-center justify-between">
         <div className="flex">
           <img src={logo} alt="A.C Initials Logo" />
-          <span className="mt-7 text-lg font-semibold tracking-widest">
+          {/* <span className="mt-7 text-lg font-semibold tracking-widest">
             artagena
-          </span>
+          </span> */}
         </div>
         <ul className="hidden md:flex gap-8 font-semibold">
           <li>
-            <a className="hover:text-[#FC9329]" href="#">
+            <a className="hover:text-[#000]" href="#">
               Home
             </a>
           </li>
           <li>
-            <a className="hover:text-[#FC9329]" href="#">
+            <a className="hover:text-[#000]" href="#">
               Skills
             </a>
           </li>
           <li>
-            <a className="hover:text-[#FC9329]" href="#">
+            <a className="hover:text-[#000]" href="#">
               About
             </a>
           </li>
           <li>
-            <a className="hover:text-[#FC9329]" href="#">
+            <a className="hover:text-[#000]" href="#">
               Portfolio
             </a>
           </li>
@@ -77,7 +77,7 @@ function Navbar() {
         ) : (
           <FontAwesomeIcon
             onClick={toggleNav}
-            className="text-3xl"
+            className="text-3xl hover:text-[#FC9329]"
             icon={faBars}
           />
         )}
