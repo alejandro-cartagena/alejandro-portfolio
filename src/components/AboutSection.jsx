@@ -7,7 +7,7 @@ function AboutSection() {
     <section className="px-6 py-20 light-orange">
       <div className="container flex flex-col gap-8 md:gap-0 md:flex-row md:justify-between md:items-center">
         {/* Images */}
-        <h1 className="flex justify-center md:hidden text-4xl font-bold">
+        <h1 className="flex justify-center md:hidden text-5xl font-bold">
           About Me
         </h1>
         <div className="w-full md:w-[50%] grid grid-cols-6">
@@ -30,7 +30,7 @@ function AboutSection() {
               My Journey
             </p>
           </div>
-          <h1 className="hidden md:flex text-4xl font-bold">About Me</h1>
+          <h1 className="hidden md:flex text-5xl font-bold">About Me</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio est
             animi ullam cumque incidunt sunt facere neque libero, beatae

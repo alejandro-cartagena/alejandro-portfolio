@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import SkillsSection from "./components/SkillsSection";
 import AboutSection from "./components/AboutSection";
+import PortfolioSection from "./components/PortfolioSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <SkillsSection />
       <AboutSection />
+      <PortfolioSection />
       <Footer />
     </div>
   );
