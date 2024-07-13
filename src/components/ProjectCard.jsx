@@ -1,8 +1,11 @@
 import React from "react";
 
-function ProjectCard({ thumbnail, techUsed, name }) {
+function ProjectCard({ thumbnail, techUsed, description, name, link }) {
   return (
-    <div className="flex flex-col gap-4 shadow-md rounded-md p-4">
+    <a
+      href={link}
+      className="flex flex-col gap-4 shadow-md rounded-md p-4 ease-in-out duration-200 hover:scale-105"
+    >
       <div className="">
         <img
           className="rounded w-full object-cover"
@@ -10,11 +13,12 @@ function ProjectCard({ thumbnail, techUsed, name }) {
           alt={`${name} thumbnail`}
         />
       </div>
-      <div>
+      <div className="flex flex-col h-full gap-4">
         <p className="text-[#9E9E9E]">{techUsed}</p>
-        <p className="font-bold text-xl">{name}</p>
+        <p className="opacity-90 tracking-wide">{description}</p>
+        <p className="mt-auto font-bold text-xl">{name}</p>
       </div>
-    </div>
+    </a>
   );
 }
 

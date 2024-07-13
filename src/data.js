@@ -41,17 +41,33 @@ export const projectsData = [
   {
     thumbnail: forSureHiredThumbnail,
     techUsed: "React, NodeJS, Express, MongoDB",
+    description:
+      "An all-in-one solution for job seekers aiming to streamline their job search process. Our platform offers tools to efficiently manage job applications such as a Kanban Style Board, user authentication, and AI generated quizzes to prepare for interviews.",
     name: "forSure Hired",
+    link: "https://forsure-hired.netlify.app/",
   },
-  { thumbnail: fitFusionThumbnail, techUsed: "React", name: "FitFusion" },
+  {
+    thumbnail: fitFusionThumbnail,
+    techUsed: "React, React Router",
+    description:
+      "A comprehensive web application designed to be your ultimate companion on your fitness journey. Includes features such as an anatomy page, showcasing exercises based on the muscle group clicked, a BMI calculator, and a Macro Nutrient Calculator.",
+    name: "FitFusion",
+    link: "https://fit-fusion-site.vercel.app/",
+  },
   {
     thumbnail: yokaiSlayerThumbnail,
     techUsed: "JavaScript, HTML, CSS",
+    description:
+      "A 2D platformer game where you must defeat multiple enemies (Yokai) until you reach the final boss. Considered many different situations such as sprite sheets for animations, collision logic, attack logic, movement mechanics, and win/lose conditions.",
     name: "Yokai Slayer",
+    link: "https://yokaislayer.netlify.app/",
   },
   {
     thumbnail: vanLifeThumbnail,
     techUsed: "React, Mirage JS",
+    description:
+      "A Front End Application where users can view a wide variety of travel vans to rent and log in to their account to view a dashboard displaying their hosted vans, income, and reviews.",
     name: "Van Life",
+    link: "https://van-life-application.netlify.app/",
   },
 ];

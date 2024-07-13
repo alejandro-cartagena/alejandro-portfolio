@@ -15,7 +15,9 @@ function PortfolioSection() {
                 key={index}
                 thumbnail={project.thumbnail}
                 techUsed={project.techUsed}
+                description={project.description}
                 name={project.name}
+                link={project.link}
               />
             );
           })}
