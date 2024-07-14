@@ -40,7 +40,7 @@ export const skillsData = [
 export const projectsData = [
   {
     thumbnail: forSureHiredThumbnail,
-    techUsed: "React, NodeJS, Express, MongoDB",
+    techUsed: "React, React Router, NodeJS, Express, MongoDB",
     description:
       "An all-in-one solution for job seekers aiming to streamline their job search process. Our platform offers tools to efficiently manage job applications such as a Kanban Style Board, user authentication, and AI generated quizzes to prepare for interviews.",
     name: "forSure Hired",
@@ -64,7 +64,7 @@ export const projectsData = [
   },
   {
     thumbnail: vanLifeThumbnail,
-    techUsed: "React, Mirage JS",
+    techUsed: "React, React Router, Mirage JS",
     description:
       "A Front End Application where users can view a wide variety of travel vans to rent and log in to their account to view a dashboard displaying their hosted vans, income, and reviews.",
     name: "Van Life",
