@@ -89,27 +89,39 @@ function Navbar() {
         </div>
         <ul className="hidden md:flex gap-8 font-semibold">
           <li>
-            <a className="hover:text-[#000]" href="#hero">
+            <a className="hover:text-[#000] hover:drop-shadow-2xl" href="#hero">
               Home
             </a>
           </li>
           <li>
-            <a className="hover:text-[#000]" href="#skills">
+            <a
+              className="hover:text-[#000] hover:drop-shadow-2xl"
+              href="#skills"
+            >
               Skills
             </a>
           </li>
           <li>
-            <a className="hover:text-[#000]" href="#about">
+            <a
+              className="hover:text-[#000] hover:drop-shadow-2xl"
+              href="#about"
+            >
               About
             </a>
           </li>
           <li>
-            <a className="hover:text-[#000]" href="#portfolio">
+            <a
+              className="hover:text-[#000] hover:drop-shadow-2xl"
+              href="#portfolio"
+            >
               Portfolio
             </a>
           </li>
           <li>
-            <a className="hover:text-[#000]" href="#contact">
+            <a
+              className="hover:text-[#000] hover:drop-shadow-2xl"
+              href="#contact"
+            >
               Contact
             </a>
           </li>
