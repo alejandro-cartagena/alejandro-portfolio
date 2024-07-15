@@ -4,7 +4,7 @@ import { skillsData } from "../data.js";
 
 function SkillsSection() {
   return (
-    <section className="bg-white py-20 px-6">
+    <section id="skills" className="bg-white py-32 px-6">
       <div className="container">
         <h1 className="text-5xl font-bold text-center bg-white mb-20">
           Skills

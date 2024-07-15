@@ -4,7 +4,7 @@ import { projectsData } from "../data";
 
 function PortfolioSection() {
   return (
-    <section className="px-6 py-20 bg-white">
+    <section id="portfolio" className="px-6 py-32 bg-white">
       <div className="container flex flex-col gap-12">
         <h1 className="text-5xl font-bold text-center">Portfolio</h1>
 

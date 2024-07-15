@@ -4,7 +4,7 @@ import alejandroHikingImg from "/images/alejandroHiking.png";
 
 function AboutSection() {
   return (
-    <section className="px-6 py-20 light-orange">
+    <section id="about" className="px-6 py-32 light-orange">
       <div className="container flex flex-col gap-8 md:gap-0 md:flex-row md:justify-between md:items-center">
         {/* Images */}
         <h1 className="flex justify-center md:hidden text-5xl font-bold">

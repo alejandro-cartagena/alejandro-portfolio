@@ -5,7 +5,7 @@ import AlejandroNeutral from "/images/alejandroNeutralBg.png";
 
 function HeroSection() {
   return (
-    <section className=" px-6 -mt-[95px]">
+    <section id="hero" className=" px-6 -mt-[95px]">
       <div className="relative container min-h-[90vh] flex flex-col justify-center md:flex-row md:justify-between md:items-center">
         {/* Hero Text */}
         <div className="flex flex-col text-center  gap-4 w-full pt-32 pb-20 md:text-left md:pb-0 md:w-[40%] md:pt-24">
