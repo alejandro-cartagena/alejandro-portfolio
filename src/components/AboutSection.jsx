@@ -31,21 +31,28 @@ function AboutSection() {
             </p>
           </div>
           <h1 className="hidden md:flex text-5xl font-bold">About Me</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio est
-            animi ullam cumque incidunt sunt facere neque libero, beatae
-            molestiae repudiandae recusandae vero ducimus labore enim velit cum.
-            Doloribus, recusandae.
+          <p className="tracking-wide">
+            I'm a Frontend Developer located in Miami Florida. My passion for
+            code began when I took my first programming class in University. I
+            fell in love with creating web applications due to the creative
+            aspect of it and the endless possibilites for innovation and problem
+            solving. My expertise lies in building intuitive user friendly
+            applications using technologies such as React, Node.js, Express,
+            PostgreSQL, MongoDB, HTML, CSS, and JavaScript.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
-            odit officia obcaecati incidunt minus voluptatibus sunt commodi
-            distinctio harum, sit mollitia natus aut non officiis facere fugit
-            ipsam debitis hic.
+          <p className="tracking-wide">
+            When I'm not coding, I love playing the guitar and going on hikes.
+            Getting lost in my playing and challenging myself physically both
+            eases my mind and enriches my soul. Music allows me to express my
+            creativity in a different medium, while hiking connects me with
+            nature and provides a refreshing break from the digital world.
           </p>
-          <button className="mx-auto md:mx-0 uppercase tracking-wide text-lg font-semibold mt-4 w-fit orange text-white px-4 py-2 rounded ease-in-out duration-200 hover:scale-105 hover:bg-gradient-to-r from-[#FB7878] to-[#FFAF74]">
+          <a
+            href="#portfolio"
+            className="mx-auto md:mx-0 uppercase tracking-wide text-lg font-semibold mt-4 w-fit orange text-white px-4 py-2 rounded ease-in-out duration-200 hover:scale-105 hover:bg-gradient-to-r from-[#FB7878] to-[#FFAF74]"
+          >
             My Portfolio
-          </button>
+          </a>
         </div>
       </div>
     </section>

@@ -25,9 +25,12 @@ function HeroSection() {
             A Frontend Developer with a Computer Science degree and track record
             of crafting seamless and user-friendly web applications.
           </p>
-          <button className="mx-auto md:mx-0 text-2xl font-semibold mt-4 w-fit orange text-white px-4 py-2 rounded-md ease-in-out duration-200 hover:scale-105 hover:bg-gradient-to-r from-[#FB7878] to-[#FFAF74]">
+          <a
+            href="#portfolio"
+            className="mx-auto md:mx-0 text-2xl font-semibold mt-4 w-fit orange text-white px-4 py-2 rounded-md ease-in-out duration-200 hover:scale-105 hover:bg-gradient-to-r from-[#FB7878] to-[#FFAF74]"
+          >
             View Portfolio
-          </button>
+          </a>
         </div>
         {/* Hero Image */}
         <div className="">
