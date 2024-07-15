@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation, Link } from "react-router-dom";
 import logo from "/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
@@ -6,6 +7,7 @@ import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [navScroll, setNavScroll] = useState(false);
+  const location = useLocation();
 
   const toggleNav = () => {
     setMenuOpen(!menuOpen);
@@ -21,6 +23,15 @@ function Navbar() {
 
   window.addEventListener("scroll", setNavScrollEffect);
 
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   return (
     <header
       className={`sticky top-0 flex items-center py-4  md:px-6 z-50 ease-in duration-200 ${
@@ -30,100 +41,103 @@ function Navbar() {
       {menuOpen && (
         <ul className="md:hidden bg-[#FFF9F2] text-4xl flex flex-col items-center justify-evenly absolute top-0 w-full h-[100vh] mt-0 py-4 font-semibold">
           <li>
-            <a
+            <Link
               onClick={() => setMenuOpen(false)}
               className="hover:text-[#FC9329]"
-              href="#hero"
+              to="/#hero"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               onClick={() => setMenuOpen(false)}
               className="hover:text-[#FC9329]"
-              href="#skills"
+              to="/#skills"
             >
               Skills
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               onClick={() => setMenuOpen(false)}
               className="hover:text-[#FC9329]"
-              href="#about"
+              to="/#about"
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               onClick={() => setMenuOpen(false)}
               className="hover:text-[#FC9329]"
-              href="#portfolio"
+              to="/#portfolio"
             >
               Portfolio
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               onClick={() => setMenuOpen(false)}
               className="hover:text-[#FC9329]"
-              href="#contact"
+              to="/#contact"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       )}
 
       <nav className="sticky top-0 container flex items-center justify-between">
         <div className="flex">
-          <a href="#hero">
+          <Link to="/#hero">
             <img
               className={`${menuOpen ? "hidden" : "flex"} md:flex`}
               src={logo}
               alt="A.C Initials Logo"
             />
-          </a>
+          </Link>
         </div>
         <ul className="hidden md:flex gap-8 font-semibold">
           <li>
-            <a className="hover:text-[#000] hover:drop-shadow-2xl" href="#hero">
+            <Link
+              className="hover:text-[#000] hover:drop-shadow-2xl"
+              to="/#hero"
+            >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="hover:text-[#000] hover:drop-shadow-2xl"
-              href="#skills"
+              to="/#skills"
             >
               Skills
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="hover:text-[#000] hover:drop-shadow-2xl"
-              href="#about"
+              to="/#about"
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="hover:text-[#000] hover:drop-shadow-2xl"
-              href="#portfolio"
+              to="/#portfolio"
             >
               Portfolio
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="hover:text-[#000] hover:drop-shadow-2xl"
-              href="#contact"
+              to="/#contact"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

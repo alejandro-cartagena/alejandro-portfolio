@@ -1,24 +1,19 @@
 import React from "react";
-import Drift from "react-driftjs";
+import { Route, Routes } from "react-router-dom";
+import useDrift from "./useDrift";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import SkillsSection from "./components/SkillsSection";
-import AboutSection from "./components/AboutSection";
-import PortfolioSection from "./components/PortfolioSection";
-import ContactSection from "./components/ContactSection";
+import HomePage from "./pages/HomePage";
 
 function App() {
+  useDrift("kms2k4twfvaz");
   return (
     <div className="lighter-black flex flex-col min-h-[100vh]">
-      <Drift appId="kms2k4twfvaz" />
       <Navbar />
-      <HeroSection />
-      <SkillsSection />
-      <AboutSection />
-      <PortfolioSection />
-      <ContactSection />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
       <Footer />
     </div>
   );

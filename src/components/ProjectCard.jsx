@@ -5,7 +5,7 @@ function ProjectCard({ thumbnail, techUsed, description, name, link }) {
     <a
       href={link}
       target="_blank"
-      className="flex flex-col gap-4 shadow-md rounded-md p-4 ease-in-out duration-200 hover:scale-105 hover:bg-[#FFF9F2]  hover:shadow-lg"
+      className="flex flex-col gap-4 shadow-md rounded-md p-4 ease-in-out duration-200 hover:scale-105 hover:bg-[#FFF9F2]  hover:shadow-xl"
     >
       <div className="">
         <img
