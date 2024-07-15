@@ -1,3 +1,5 @@
+import React from "react";
+import Drift from "react-driftjs";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -10,6 +12,7 @@ import ContactSection from "./components/ContactSection";
 function App() {
   return (
     <div className="lighter-black flex flex-col min-h-[100vh]">
+      <Drift appId="kms2k4twfvaz" />
       <Navbar />
       <HeroSection />
       <SkillsSection />
