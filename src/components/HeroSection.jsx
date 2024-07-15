@@ -6,7 +6,7 @@ import AlejandroNeutral from "/images/alejandroNeutralBg.png";
 function HeroSection() {
   return (
     <section id="hero" className=" px-6 -mt-[95px]">
-      <div className="relative container min-h-[90vh] flex flex-col justify-center md:flex-row md:justify-between md:items-center">
+      <div className="relative container min-h-[100vh] flex flex-col justify-center md:flex-row md:justify-between md:items-center">
         {/* Hero Text */}
         <div className="flex flex-col text-center  gap-4 w-full pt-32 pb-20 md:text-left md:pb-0 md:w-[40%] md:pt-24">
           <img
@@ -35,12 +35,12 @@ function HeroSection() {
         {/* Hero Image */}
         <div className="">
           <img
-            className="hidden md:flex absolute z-10 max-h-[90vh]  top-0 -right-20"
+            className="hidden md:flex absolute z-10 max-h-[100vh]  top-0 -right-20"
             src={OrangeRectangle}
             alt=""
           />
           <img
-            className="hidden md:flex z-20 max-h-[100vh] absolute -right-20 bottom-0"
+            className="hidden md:flex z-20 max-h-[110vh] absolute -right-20 bottom-0"
             src={AlejandroPointing}
             alt=""
           />
