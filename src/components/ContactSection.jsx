@@ -18,21 +18,23 @@ function ContactSection() {
         </h1>
         <div className="flex flex-col md:flex-row gap-8 items-center md:items-start justify-between">
           <div>
-            <h3 className="text-xl text-[#9E9E9E] tracking-wide text-center md:text-left mb-4">
+            <h3 className="text-lg md:text-xl text-[#9E9E9E] tracking-wide text-center md:text-left mb-4">
               Email
             </h3>
-            <p className="text-2xl font-semibold break-all">
+            <p className="text-xl md:text-2xl font-semibold break-all">
               alejandrocartagena68@gmail.com
             </p>
           </div>
           <div>
-            <h3 className="text-xl text-[#9E9E9E] tracking-wide text-center md:text-left mb-4">
+            <h3 className="text-lg md:text-xl text-[#9E9E9E] tracking-wide text-center md:text-left mb-4">
               My Location
             </h3>
-            <p className="text-2xl font-semibold">Miami Beach, Florida</p>
+            <p className="text-xl md:text-2xl font-semibold">
+              Miami Beach, Florida
+            </p>
           </div>
           <div className="flex flex-col">
-            <h3 className="text-xl text-[#9E9E9E] tracking-wide text-center md:text-left mb-4">
+            <h3 className="text lg md:text-xl text-[#9E9E9E] tracking-wide text-center md:text-left mb-4">
               LinkedIn
             </h3>
             <a
@@ -41,7 +43,7 @@ function ContactSection() {
               className="text-center md:text-left"
             >
               <FontAwesomeIcon
-                className="h-12 ease-in-out duration-200 hover:text-[#FC9329]"
+                className="h-8 md:h-12 ease-in-out duration-200 hover:text-[#FC9329]"
                 icon={faLinkedin}
               />
             </a>
