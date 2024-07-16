@@ -12,12 +12,9 @@ function App() {
   useDrift("kms2k4twfvaz");
 
   useEffect(() => {
-    ReactGA.initialize("G-K8G4N5FWZZ"); // Replace with your GA4 tracking ID
-    ReactGA.send({
-      hitType: "pageview",
-      page: location.pathname + location.search,
-    });
-  }, [location]);
+    ReactGA.initialize("G-K8G4N5FWZZ"); // Replace with your GA4 Measurement ID
+    ReactGA.send({ hitType: "pageview", page: "/" });
+  }, []);
   return (
     <div className="lighter-black flex flex-col min-h-[100vh]">
       <Navbar />
