@@ -1,3 +1,4 @@
+import ReactGA from "react-ga4";
 //////////////////////////
 // Skills Icons Images //
 ////////////////////////
@@ -71,3 +72,12 @@ export const projectsData = [
     link: "https://van-life-application.netlify.app/",
   },
 ];
+
+export const handleLinkClick = (label) => {
+  ReactGA.event({
+    category: "Navigation",
+    action: "Clicked Portfolio Project Link",
+    label: label,
+    value: 1,
+  });
+};

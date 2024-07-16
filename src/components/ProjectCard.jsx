@@ -1,4 +1,5 @@
 import React from "react";
+import { handleLinkClick } from "../data";
 
 function ProjectCard({ thumbnail, techUsed, description, name, link }) {
   return (
@@ -6,6 +7,7 @@ function ProjectCard({ thumbnail, techUsed, description, name, link }) {
       href={link}
       target="_blank"
       className="flex flex-col gap-4 shadow-md rounded-md p-4 ease-in-out duration-200 hover:scale-105 hover:bg-[#FFF9F2]  hover:shadow-xl"
+      onClick={() => handleLinkClick(name)}
     >
       <div className="">
         <img
