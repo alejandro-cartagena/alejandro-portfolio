@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import alejandroGuitarImg from "/images/alejandroGuitar.png";
 import alejandroHikingImg from "/images/alejandroHiking.png";
 
@@ -47,12 +48,12 @@ function AboutSection() {
             creativity in a different medium, while hiking connects me with
             nature and provides a refreshing break from the digital world.
           </p>
-          <a
-            href="#portfolio"
+          <Link
+            to="/#portfolio"
             className="mx-auto md:mx-0 uppercase tracking-wide text-lg font-semibold mt-4 w-fit orange text-white px-4 py-2 rounded ease-in-out duration-200 hover:scale-105 hover:bg-gradient-to-r from-[#FB7878] to-[#FFAF74]"
           >
             My Portfolio
-          </a>
+          </Link>
         </div>
       </div>
     </section>
