@@ -76,7 +76,7 @@ export const projectsData = [
 export const handleLinkClick = (label) => {
   ReactGA.event({
     category: "Navigation",
-    action: "Clicked Portfolio Project Link",
+    action: `Clicked Portfolio Project Link For: ${label}`,
     label: label,
     value: 1,
   });
