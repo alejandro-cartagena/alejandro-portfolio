@@ -4,6 +4,7 @@ import ReactGA from "react-ga4";
 import useDrift from "./useDrift";
 import "./App.css";
 
+import Hotjar from "./components/Hotjar";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
@@ -17,6 +18,7 @@ function App() {
   }, []);
   return (
     <div className="lighter-black flex flex-col min-h-[100vh]">
+      <Hotjar />
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
