@@ -4,7 +4,7 @@ import ReactGA from "react-ga4";
 import useDrift from "./useDrift";
 import "./App.css";
 
-import Hotjar from "./components/Hotjar";
+import Hotjar from "./components/Hotjar"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";

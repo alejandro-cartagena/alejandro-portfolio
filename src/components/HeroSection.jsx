@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import OrangeRectangle from "/images/orangeRectangleHero.png";
-import AlejandroPointing from "/images/alejandroImg.png";
+import AlejandroPointing from "/images/alejandroImg-min.png";
 import AlejandroNeutral from "/images/alejandroNeutralBg.png";
 
 function HeroSection() {
