@@ -22,6 +22,7 @@ import forSureHiredThumbnail from "/images/forSureHiredThumbnail.png";
 import fitFusionThumbnail from "/images/fitFusionThumbnail.png";
 import yokaiSlayerThumbnail from "/images/yokaiSlayerThumbnail.png";
 import vanLifeThumbnail from "/images/vanLifeThumbnail.png";
+import patriciaPortfolioThumbnail from "/images/patriciaPortfolioThumbnail.png";
 
 export const skillsData = [
   { icon: htmlIcon, text: "HTML" },
@@ -70,6 +71,14 @@ export const projectsData = [
       "A Front End Application where users can view a wide variety of travel vans to rent and log in to their account to view a dashboard displaying their hosted vans, income, and reviews.",
     name: "Van Life",
     link: "https://van-life-application.netlify.app/",
+  },
+  {
+    thumbnail: patriciaPortfolioThumbnail,
+    techUsed: "JavaScript, HTML, CSS",
+    description:
+      "A portfolio website made for a family friend who is a 3D Renderer and Animation Specialist. The site showcases her projects and allows users to book a call to discuss her services.",
+    name: "Patricia Portfolio",
+    link: "https://patriciaportfoliosite.netlify.app/",
   },
 ];
 
