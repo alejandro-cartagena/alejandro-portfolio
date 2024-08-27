@@ -1,7 +1,8 @@
 import ReactGA from "react-ga4";
-//////////////////////////
-// Skills Icons Images //
-////////////////////////
+/////////////////////////////
+// Skills Icons Images SVG //
+////////////////////////////
+
 import htmlIcon from "/icons/htmlIcon.svg";
 import cssIcon from "/icons/cssIcon.svg";
 import javascriptIcon from "/icons/javascriptIcon.svg";
