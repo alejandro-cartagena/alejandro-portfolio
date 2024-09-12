@@ -34,7 +34,7 @@ function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 flex items-center py-4  md:px-6 z-50 ease-in duration-200 ${
+      className={`sticky top-0 flex items-center py-2  md:px-6 z-50 ease-in duration-200 ${
         menuOpen ? "px-0" : "px-6"
       } ${navScroll ? "light-orange shadow-md" : ""}`}
     >
