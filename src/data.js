@@ -24,6 +24,7 @@ import fitFusionThumbnail from "/images/fitFusionThumbnail.png";
 import yokaiSlayerThumbnail from "/images/yokaiSlayerThumbnail.png";
 import vanLifeThumbnail from "/images/vanLifeThumbnail.png";
 import patriciaPortfolioThumbnail from "/images/patriciaPortfolioThumbnail.png";
+import drubioWebsiteThumbnail from "/images/drubioWebsiteThumbnail.png";
 
 export const skillsData = [
   { icon: htmlIcon, text: "HTML" },
@@ -64,6 +65,14 @@ export const projectsData = [
       "A 2D platformer game where you must defeat multiple enemies (Yokai) until you reach the final boss. Considered many different situations such as sprite sheets for animations, collision logic, attack logic, movement mechanics, and win/lose conditions.",
     name: "Yokai Slayer",
     link: "https://yokaislayer.netlify.app/",
+  },
+  {
+    thumbnail: drubioWebsiteThumbnail,
+    techUsed: "Wordpress, Elementor Pro",
+    description:
+      "Designed and developed a dynamic website for rising reggaeton artist D Rubio, showcasing his latest songs, discography, performances, and biography. The site features an engaging, modern design with smooth navigation, multimedia integration, and a strong focus on artist branding.",
+    name: "D Rubio Music",
+    link: "https://drubiomusic.com/",
   },
   {
     thumbnail: vanLifeThumbnail,
